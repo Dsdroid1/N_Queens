@@ -231,7 +231,7 @@ void main()
 {
     int n;
     Board B;
-    printf("\nEnter the board size(<15):");
+    printf("\nEnter the board size(<%d):",MAX_BOARD_SIZE);
     scanf("%d",&n);
     InitBoard(&B,n);
     printf("\nThe solution possible is:");
